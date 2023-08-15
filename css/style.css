@@ -6,9 +6,10 @@
 
 body {
     background: linear-gradient(180deg, #594cee 0%, #8dd0f5 100%);
+    background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 100vh;
 }
@@ -18,7 +19,6 @@ body {
 }
 
 .container {
-    margin-top: 100px;
     width: 70vw;
     background-color: #5c54ed;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
