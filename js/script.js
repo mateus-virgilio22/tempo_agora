@@ -1,7 +1,6 @@
 // Variáveis e seleção de elementos
 
 const apiKey = "d3c234c90b548b8c7783e57cc2313f9f";
-const apiUnsplash = "https://source.unsplash.com/1600x900/?";
 
 
 const cityInput = document.querySelector("#city-input")
@@ -72,7 +71,6 @@ const showWeatherData = async(city) => {
     humidityElement.innerText = `${data.main.humidity}%`;
     windElement.innerText = `${data.wind.speed}km/h`;
 
-    document.body.style.backgroundImage = `url("${apiUnsplash + city}")`;
 
     weatherContainer.classList.remove("hide");
 }
